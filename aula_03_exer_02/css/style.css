@@ -1,0 +1,95 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+:root{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main section .container{
+    width: 80rem;
+    margin: 5rem auto;
+    
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    color: blueviolet;
+    font-size: 1.8rem;
+
+}
+
+header nav{
+    margin-top: 2rem;
+}
+header nav .inicio{
+    margin-left: 2rem;
+    color: blue
+
+
+}
+header{
+    height: 6rem;
+    background-color: #dedede;
+    color: black;
+    display:flex;
+}
+
+nav menu{
+    display: flex;
+    margin-left: 60rem;
+    margin-top: -1.8rem;
+  
+}
+
+nav menu li {
+    list-style-type: none;
+    padding-left: 2rem
+    
+}
+
+nav menu li>a{
+    text-decoration: none;
+    
+}
+
+
+
+
+
+p{
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+
+.footer{
+    height: 8rem;
+    background-color: black;
+    color: #fff;
+}
+
+
+/* estilizaçao pagina contato */
+
+input[type='text'], textarea{
+    width: 100%;
+}
+
+input[type='text']{
+    height: 3rem;
+    margin-top: 0.5rem
+}
+
+button{
+    margin-top: 0.5rem;
+    background-color: blue;
+    width: 8rem;
+    color: #fff;
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
