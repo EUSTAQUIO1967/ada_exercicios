@@ -59,12 +59,10 @@ nav menu li>a{
 }
 
 
-
-
-
 p{
     margin-top: 2rem;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
+    text-align: justify;
 }
 
 .footer{
@@ -92,4 +90,33 @@ button{
     color: #fff;
     border-radius: 5rem;
     padding: 0.5rem;
+}
+
+
+
+.box-imagem {
+    text-align: center;
+}
+
+div img{
+    width: 100%;
+    margin: 0 auto 0 auto;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}
+
+figcaption{
+    font-size: 0.8rem;
+    text-align: left;
+    margin: 0.2rem;   
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+footer img{
+    max-width: 3rem;
 }
